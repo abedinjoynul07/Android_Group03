@@ -28,6 +28,7 @@ fun mergeSort(list: List<Int>): List<Int> {
 
     return merge(mergeSort(left), mergeSort(right))
 }
+// Conflict line for Sizan Branch 
 // after sorting
 println(intArray.joinToString()) // 1, 2, 3, 4
 //This is from JoynulAbedin branch for conflict
