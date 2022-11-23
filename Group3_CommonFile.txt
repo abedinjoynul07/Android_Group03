@@ -1,3 +1,4 @@
+//new line added by Ihsan Md. Al-Aqib for conflict
 fun mergeSort(list: List<Int>): List<Int> {
     if (list.size <= 1) {
         return list
@@ -26,3 +27,7 @@ fun merge(left: List<Int>, right: List<Int>): List<Int>  {
 
     while (indexLeft < left.count() && indexRight < right.count()){}
 }
+
+
+
+//Conflict Line from Raaian Branch 
