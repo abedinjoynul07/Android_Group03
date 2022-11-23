@@ -1,6 +1,5 @@
 # Android_Group03
 This is from Android Group 03 for the Git &amp; Github Exam.
-
 Group Members:-
 
 1. Mohammad Joynul Abedin
@@ -14,4 +13,3 @@ Group Members:-
  
 4. Samiun Rahman Sizan 
   Id - 30036
-
