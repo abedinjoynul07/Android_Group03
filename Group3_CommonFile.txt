@@ -9,6 +9,15 @@ fun mergeSort(list: List<Int>): List<Int> {
 
     return merge(mergeSort(left), mergeSort(right))
 }
+val intArray = intArrayOf(4, 3, 2, 1)
+
+// before sorting
+println(intArray.joinToString()) // 4, 3, 2, 1
+
+intArray.sort()
+
+// after sorting
+println(intArray.joinToString()) // 1, 2, 3, 4
 //This is from JoynulAbedin branch for conflict
 fun merge(left: List<Int>, right: List<Int>): List<Int>  {
     var indexLeft = 0
