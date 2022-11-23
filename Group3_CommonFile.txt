@@ -15,7 +15,18 @@ val intArray = intArrayOf(4, 3, 2, 1)
 println(intArray.joinToString()) // 4, 3, 2, 1
 
 intArray.sort()
+//New Line for conflict by sizan
+fun mergeSort(list: List<Int>): List<Int> {
+    if (list.size <= 1) {
+        return list
+    }
 
+    val middle = list.size / 2
+    var left = list.subList(0,middle);
+    var right = list.subList(middle,list.size);
+
+    return merge(mergeSort(left), mergeSort(right))
+}
 // after sorting
 println(intArray.joinToString()) // 1, 2, 3, 4
 //This is from JoynulAbedin branch for conflict
