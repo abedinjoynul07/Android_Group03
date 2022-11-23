@@ -38,7 +38,5 @@ fun merge(left: List<Int>, right: List<Int>): List<Int>  {
 
     while (indexLeft < left.count() && indexRight < right.count()){}
 }
-
-
-
+//git confliction from Ihsan
 //Conflict Line from Raaian Branch 
