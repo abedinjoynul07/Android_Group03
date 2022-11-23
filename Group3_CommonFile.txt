@@ -1,5 +1,7 @@
 //new line added by Ihsan Md. Al-Aqib for conflict
-//New Line added from SIzan 2 should conflict
+//New Line added from SIzan 2 should conflic
+// From Branch 1 no conflict
+//Merge Resolve By sizan
 fun mergeSort(list: List<Int>): List<Int> {
     if (list.size <= 1) {
         return list
