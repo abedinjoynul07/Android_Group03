@@ -32,6 +32,7 @@ fun mergeSort(list: List<Int>): List<Int> {
 // after sorting
 println(intArray.joinToString()) // 1, 2, 3, 4
 //This is from JoynulAbedin branch for conflict
+//This is from Raian for conflict
 fun merge(left: List<Int>, right: List<Int>): List<Int>  {
     var indexLeft = 0
     var indexRight = 0
